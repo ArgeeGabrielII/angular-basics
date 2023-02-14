@@ -4,7 +4,7 @@ First Session (March 4, 2023)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
-Course Outline
+[Course Outline](https://docs.google.com/presentation/d/1KkLSonsKmbhpNrT0YY4TS3uy-oCEq_yRLL1g2KOw3DE/edit?usp=sharing)
 - Web Development Lifecycle
 - Concepts / Fundamentals
 - Use Cases
