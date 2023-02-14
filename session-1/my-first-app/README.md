@@ -15,6 +15,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ### Via Node Package Manager
 
 Link: [BootStrap](https://www.npmjs.com/package/bootstrap)
+
 Run `npm install --save bootstrap`
 
 ## Build
