@@ -22,9 +22,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Adding Bootstrap
 
+[What is a Bootstrap?](https://www.w3schools.com/whatis/whatis_bootstrap.asp)
+
 ### Via Node Package Manager
 
-Link: [BootStrap](https://www.npmjs.com/package/bootstrap)
+[Installing BootStrap](https://www.npmjs.com/package/bootstrap)
 
 Run `npm install --save bootstrap`
 
