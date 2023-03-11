@@ -1,4 +1,7 @@
 <p>server works!</p>
 
+<ul>
+    <li *ngFor="let srvr of server_list">{{ srvr }}</li>
+</ul>
 <p>Server with ID: {{ serverId }} is {{ serverStatus }}</p>
 <p>Server with ID: {{ serverId }} is {{ getServerStatus() }}</p>

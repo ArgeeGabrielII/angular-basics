@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-warning-alert',
   template: `
-    <p>This is a warning, you are in danger!</p>
+    <p>This is a warning, you might be in danger!</p>
   `,
   styles: [
     `

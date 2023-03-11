@@ -1,23 +1,28 @@
 <p>servers works!</p>
-
-<label>Server Name: {{ serverName }} </label>
-<input type="text" class="form-control" [(ngModel)]="serverName" />
+<app-server></app-server>
+<hr/>
 
 <br />
+<p>This is Server ID: {{ serverID }}</p>
+<input type="text" class="form-control" [(ngModel)]="serverID" />
 
-<button 
-    class="btn btn-primary" 
-    [disabled]="!allowNewServer"
-    (click)="onCreateServer()">Add Server</button>
+<p *ngIf="isCreated"> Server was created! </p>
+<button [disabled]="isDisabled" (click)="onClick()" class="btn btn-danger">Click Me!</button>
 
-<p *ngIf="serverCreated">Server: {{serverCreationStatus}}</p>
+<!-- <ul>
+    <li *ngFor="let srvr of server_list">
+        <button class="btn btn-primary">{{ srvr }}</button>
+    </li>
+</ul> -->
 
-<hr/>
-<app-server></app-server>
+<input type="text" class="form-control" [(ngModel)]="my_shopping_list" />
+<div [ngSwitch]="my_shopping_list">
+    <p *ngSwitchCase="'cups'">cups</p>
+    <p *ngSwitchCase="'veg'">veggies</p>
+    <p *ngSwitchCase="'cloth'">clothing</p>
+    <p *ngSwitchDefault>MyShopping</p>
+</div>
 
 
 
-<!-- <input 
-    type="text"
-    class="form-control"
-    (input)="onUpdateServerName($event)"/> -->
+<br /><br /><br />
