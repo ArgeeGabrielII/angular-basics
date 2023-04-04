@@ -4,12 +4,13 @@
     </div>
 </div>
 <hr>
+<h3>Recipe List</h3>
 <div class="row">
     <div class="col-xs-12">
         <app-recipes-item 
-            *ngFor="let recipeEl of recipes" 
-            [recipe]="recipeEl"
-            (recipeSelected)="onRecipeSelected(recipeEl)">
+            *ngFor="let recipeObj of recipes" 
+            [recipe]="recipeObj"
+            (recipeSelected)="onRecipeSelected(recipeObj)">
         </app-recipes-item>
     </div>
 </div>
